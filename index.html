@@ -336,7 +336,7 @@
 </section>
     
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4" style="background-color: #7db43d;">
+<footer class="page-footer font-small blue pt-4">
 
   <div class="container-fluid text-center text-md-left">
 
@@ -345,7 +345,7 @@
       <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h5 class="text-uppercase" style="color: black;">Footer Content</h5>
+        <h5 class="text-uppercase" style="color: black; font-weight: bold; text-decoration: underline #C99C33;">Footer Content</h5>
         <p>Here you can use rows and columns to organize your footer content.</p>
 
       </div>
@@ -354,7 +354,7 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">CONTACT</h5>
+        <h5 class="text-uppercase" style="color: black; font-weight: bold; text-decoration: underline #C99C33;">CONTACT</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -371,7 +371,7 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">FEEDBACK</h5>
+        <h5 class="text-uppercase" style="color: black; font-weight: bold; text-decoration: underline #C99C33;">FEEDBACK</h5>
 
         <ul class="list-unstyled">
           <li>
@@ -395,6 +395,18 @@
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
+
+<script>
+  var typetag= document.getElementById('recipe-type-check');
+$('input:checkbox').change(function(){
+  if($('#switch-input').is(":checked")) {
+  typetag.innerHTML="Veg Only"
+  } else {
+    typetag.innerHTML="Non-Veg Only"
+  }
+});
+</script>
+
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
     </script>
