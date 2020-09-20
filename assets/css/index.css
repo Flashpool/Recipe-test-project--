@@ -360,8 +360,6 @@ input:checked + .slider:before {
 .icon-img {
 	height: 15px;
 	width: 15px;
-	/* margin-right: 10px; */
-	/* margin-bottom: 8px; */
 }
 
 .icon {
@@ -611,9 +609,7 @@ a {
           flex: 1;
           margin: 0 5px 0 5px;
 }
-/*.parallax1 .ft-recipe .ft-recipe__content .content__header .recipe-details .recipe-details-item i {
-  font-size: 30px;
-}*/
+
 .parallax1 .ft-recipe .ft-recipe__content .content__header .recipe-details .recipe-details-item .value {
   color: #ff4f87;
   margin-left: .35em;
@@ -818,9 +814,7 @@ a {
           flex: 1;
           margin: 0 5px 0 5px;
 }
-/*.parallax1 .ft-recipe .ft-recipe__content .content__header .recipe-details .recipe-details-item i {
-  font-size: 30px;
-}*/
+
 .parallax1 .ft-recipe .ft-recipe__content .content__header .recipe-details .recipe-details-item .value {
   color: #ff4f87;
   margin-left: .35em;
