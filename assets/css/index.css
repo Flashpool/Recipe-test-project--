@@ -936,6 +936,12 @@ a {
 
 @media screen and (max-width:480px){
   
+  .other-recipe .row{
+    background: #fff;
+     margin: 0 10px 0 10px;
+     padding: 0 1rem 0 1rem;
+   
+   }
 
   .category{
   
@@ -963,7 +969,7 @@ a {
     height: 100%;
     font-family: var(--bodyFont);
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1.5rem;
     border-radius: 8px;
     color: #fff
