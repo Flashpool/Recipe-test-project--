@@ -892,8 +892,9 @@ a {
 
 .other-recipe .row{
  background: #fff;
-  margin: 0 20px 0 20px;
-  padding: 0 5rem 0 5rem;
+ width: 100%;
+  
+ padding: 0 5.5rem 0 5.5rem;
 
 }
 .category{
